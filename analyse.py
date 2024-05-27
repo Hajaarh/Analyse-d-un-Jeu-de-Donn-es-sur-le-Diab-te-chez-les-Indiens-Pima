@@ -12,3 +12,6 @@ from sklearn.model_selection import cross_val_score
 
 df = pd.read_csv('C:/Users/haila/OneDrive/Bureau/DATA/Dataset_Diabetes.csv')
 print (df.head())
+print (df.shape)
+print (df.info)
+print (df.describe())
